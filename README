@@ -1,0 +1,7 @@
+Desafio de programação que consistia em criar uma aplicação web que buscasse a cotação do dólar da API do banco central caso essa cotação não estivesse listada
+em um banco de dados próprio.
+
+Dessa forma, o usuário insere a data desejada, o código checa se existe uma correnspondência dentro do banco de dados, caso não, a aplicação busca usando a data, ao dólar
+de compra e venda daquele dia, pegando o valor médio entre eles e adicionando esse dia na base de dados e retornando ao usuário.
+
+Caso a correspondência da data já houvesse na base, apenas seria exibido ao usuário.
